@@ -2,11 +2,9 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
-            {/* <h1></h1>
-            <p>
-            </p>
-            <div class="container accordion accordion-flush" id="accordionFlushExample">
+        <div className='my-5'>
+            <h1 className='text-danger text-center mb-5'><b>Blogs</b></h1>
+            <div class="container accordion accordion-flush border border-secondary rounded my-5" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -37,7 +35,7 @@ const Blogs = () => {
                     <div class="accordion-body text-start"><b><u>Ans:</u></b> useRef hook is part of the React Hooks API. It is a function which takes a maximum of one argument and returns an Object. The returned object has a property called current whose value is the argument passed to useRef. If you invoke it without an argument, the returned object's current property is set to undefined. The code below illustrates how to invoke the useRef hook in functional components.</div>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     );
 };
