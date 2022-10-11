@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="container navbar bg-light fixed-top navbar-expand-lg">
+        <nav className="container navbar bg-light navbar-expand-lg">
             <div className="container-fluid">
                 <Link className="navbar-brand text-danger" to = '/'><span className="material-symbols-outlined">tips_and_updates</span><b><i>Brain StormZ</i></b></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
