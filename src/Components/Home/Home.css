@@ -1,0 +1,17 @@
+
+
+.banner {
+    background-image: url('https://www.wpfaster.org/wp-content/uploads/2014/06/wrinkled-white-paper-texture-background.jpg'), url('https://cdn-images-1.medium.com/max/2400/1*_dNjgj9tQiwgvGS89tPoYw.png');
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: luminosity;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 120px;
+}

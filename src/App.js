@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import Quiz from './Components/Quiz/Quiz';
 import Stats from './Components/Stats/Stats';
 import Blogs from './Components/Blogs/Blogs';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const router = createBrowserRouter ([
@@ -36,6 +37,7 @@ function App() {
   return (
     <div className="App dark:bg-slate-900 bg-white">
       <RouterProvider router={router}></RouterProvider>
+      <Footer></Footer>
     </div>
   );
 }
