@@ -1,7 +1,11 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
-import Main from './Components/Main/Main'
+import Main from './Components/Main/Main';
+import Home from './Components/Home/Home';
+import Quiz from './Components/Quiz/Quiz';
+import Stats from './Components/Stats/Stats';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
   const router = createBrowserRouter ([
@@ -14,8 +18,8 @@ function App() {
           element: <Home></Home>
         },
         {
-         path: '/topics',
-         element: <Topics></Topics> 
+         path: '/quiz',
+         element: <Quiz></Quiz> 
         },
         {
          path: '/stats',
