@@ -1,3 +1,14 @@
+#About this project:
+This BrainStormZ a quiz platform to test your coding knowledge. This webpage consists:
+
+1) Home landing page 
+
+2) Quiz > Quiz Card > Quiz questions
+
+3) Stats of the player
+
+4) Blogs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
