@@ -5,6 +5,8 @@ import { useState } from 'react';
 import Card from './Card';
 import Player from './Player';
 
+
+
 const Quiz = () => {
     const [quiz, setQuiz] = useState([]);
     useEffect(() => {
@@ -20,6 +22,7 @@ const Quiz = () => {
                 quiz.map(quiz => <Card key={quiz.id} quiz={quiz}></Card>)   
                 }
             </div>
+           
         </div>
     );
 };
