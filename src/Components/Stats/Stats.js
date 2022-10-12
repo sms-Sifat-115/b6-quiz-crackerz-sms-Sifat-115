@@ -1,5 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import Player from '../Quiz/Player';
 
 const Stats = () => {
     const data = [
@@ -47,6 +48,8 @@ const Stats = () => {
         },
       ];
     return (
+      <div>
+        <Player></Player>
         <div className='container d-flex flex-column justify-content-center align-items-center my-5 py-5'>
           <h1 className='text-danger my-5 pb-5'><u> Player Stats! </u></h1>
             <ResponsiveContainer width="100%" height={350}>
@@ -72,6 +75,7 @@ const Stats = () => {
               </AreaChart>
             </ResponsiveContainer>
         </div>
+      </div>
     );
 };
 
