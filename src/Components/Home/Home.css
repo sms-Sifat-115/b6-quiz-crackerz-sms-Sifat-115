@@ -4,7 +4,7 @@
     background-image: url('https://www.wpfaster.org/wp-content/uploads/2014/06/wrinkled-white-paper-texture-background.jpg'), url('https://cdn-images-1.medium.com/max/2400/1*_dNjgj9tQiwgvGS89tPoYw.png');
     background-size: 100%;
     background-position: center;
-    background-blend-mode: luminosity;
+    background-blend-mode: lighten;
     display: flex;
     flex-direction: column;
     justify-content: center;

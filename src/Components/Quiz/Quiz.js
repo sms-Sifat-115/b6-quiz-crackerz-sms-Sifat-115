@@ -1,9 +1,23 @@
+import axios from 'axios';
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Card from './Card';
 
 const Quiz = () => {
+    const [quiz, setQuiz] = useState([]);
+    useEffect(() => {
+        axios.get('https://openapi.programming-hero.com/api/quiz')
+        .then(data => setQuiz(data.data.data));
+        }
+    ,[]);
     return (
-        <div>
-            
+        <div className="container my-5 py-5">
+            <div className='row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4'>
+                {
+                quiz.map(quiz => <Card key={quiz.id} quiz={quiz}></Card>)   
+                }
+            </div>
         </div>
     );
 };
